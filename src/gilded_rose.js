@@ -27,7 +27,7 @@ class Shop {
       itemInstance.update() 
     }
     return this.items
-    /*
+    /* ALTERNATE METHODS
     return this.items.map(item => {
       const itemClass = ITEMS[item.name] || ITEMS["Normal item"]
       const itemInstance = new itemClass(item)
